@@ -1,0 +1,804 @@
+{
+  "id": "cape15",
+  "type": "survey",
+  "short": "CAPE-P15",
+  "name": "Community Assessment of Psychic Experiences – positive scale",
+  "minutes": 4,
+  "citation": "Capra, C., Kavanagh, D. J., Hides, L., & Scott, J. (2013). Brief screening for psychosis-like experiences. Schizophrenia Research, 149(1-3), 104-107. doi:10.1016/j.schres.2013.05.020. Current (past 3 months) version: Capra, C., Kavanagh, D. J., Hides, L., & Scott, J. G. (2017). Current CAPE-15: a measure of recent psychotic-like experiences and associated distress. Early Intervention in Psychiatry, 11(5), 411-417. doi:10.1111/eip.12245. Parent scale: CAPE-42, van Os, Verdoux & Hanssen; Stefanis et al. (2002), Psychological Medicine, 32, 347-358.",
+  "notes": "Community Assessment of Psychic Experiences – positive 15-item version (CAPE-P15; Capra et al., 2013).\nItem wording from Capra et al. (2013, Table 2); instructions and the per-item distress question as\nin the CAPE-P15 form in Capra's PhD thesis (QUT, 2015, Appendix A-4.1); items in CAPE-42 order.\nNo licence terms are stated by the authors; cite Capra et al. (2013) and the CAPE-42 authors.\nAdaptations for online use: \"(please circle)\" removed; the paper form's \"If you ticked 'never',\nplease go to question …\" is implemented by showing the distress question only when the\nfrequency is above \"Never\".",
+  "survey": {
+    "pages": [
+      {
+        "name": "cape15",
+        "title": "Community Assessment of Psychic Experiences – positive scale (CAPE-P15)",
+        "elements": [
+          {
+            "type": "html",
+            "name": "cape15_instructions",
+            "html": "<div class=\"q-instructions\"><p>These questions are from the Community Assessment of Psychic Experiences (CAPE) positive scale questionnaire. For each item, please indicate how often you have felt that way.</p></div>"
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_01_freq",
+            "title": "1. Have you ever felt as if people seem to drop hints about you or say things with a double meaning?",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Never"
+              },
+              {
+                "value": 2,
+                "text": "Sometimes"
+              },
+              {
+                "value": 3,
+                "text": "Often"
+              },
+              {
+                "value": 4,
+                "text": "Nearly always"
+              }
+            ]
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_01_distress",
+            "title": "Please indicate how distressed you are by this experience:",
+            "visibleIf": "{cape15_01_freq} > 1",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Not distressed"
+              },
+              {
+                "value": 2,
+                "text": "A bit distressed"
+              },
+              {
+                "value": 3,
+                "text": "Quite distressed"
+              },
+              {
+                "value": 4,
+                "text": "Very distressed"
+              }
+            ],
+            "indent": 1
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_02_freq",
+            "title": "2. Have you ever felt as if some people are not what they seem to be?",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Never"
+              },
+              {
+                "value": 2,
+                "text": "Sometimes"
+              },
+              {
+                "value": 3,
+                "text": "Often"
+              },
+              {
+                "value": 4,
+                "text": "Nearly always"
+              }
+            ]
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_02_distress",
+            "title": "Please indicate how distressed you are by this experience:",
+            "visibleIf": "{cape15_02_freq} > 1",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Not distressed"
+              },
+              {
+                "value": 2,
+                "text": "A bit distressed"
+              },
+              {
+                "value": 3,
+                "text": "Quite distressed"
+              },
+              {
+                "value": 4,
+                "text": "Very distressed"
+              }
+            ],
+            "indent": 1
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_03_freq",
+            "title": "3. Have you ever felt that you are being persecuted in anyway?",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Never"
+              },
+              {
+                "value": 2,
+                "text": "Sometimes"
+              },
+              {
+                "value": 3,
+                "text": "Often"
+              },
+              {
+                "value": 4,
+                "text": "Nearly always"
+              }
+            ]
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_03_distress",
+            "title": "Please indicate how distressed you are by this experience:",
+            "visibleIf": "{cape15_03_freq} > 1",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Not distressed"
+              },
+              {
+                "value": 2,
+                "text": "A bit distressed"
+              },
+              {
+                "value": 3,
+                "text": "Quite distressed"
+              },
+              {
+                "value": 4,
+                "text": "Very distressed"
+              }
+            ],
+            "indent": 1
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_04_freq",
+            "title": "4. Have you ever felt as if there is a conspiracy against you?",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Never"
+              },
+              {
+                "value": 2,
+                "text": "Sometimes"
+              },
+              {
+                "value": 3,
+                "text": "Often"
+              },
+              {
+                "value": 4,
+                "text": "Nearly always"
+              }
+            ]
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_04_distress",
+            "title": "Please indicate how distressed you are by this experience:",
+            "visibleIf": "{cape15_04_freq} > 1",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Not distressed"
+              },
+              {
+                "value": 2,
+                "text": "A bit distressed"
+              },
+              {
+                "value": 3,
+                "text": "Quite distressed"
+              },
+              {
+                "value": 4,
+                "text": "Very distressed"
+              }
+            ],
+            "indent": 1
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_05_freq",
+            "title": "5. Have you ever felt as if electrical devices such as computers can influence the way you think?",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Never"
+              },
+              {
+                "value": 2,
+                "text": "Sometimes"
+              },
+              {
+                "value": 3,
+                "text": "Often"
+              },
+              {
+                "value": 4,
+                "text": "Nearly always"
+              }
+            ]
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_05_distress",
+            "title": "Please indicate how distressed you are by this experience:",
+            "visibleIf": "{cape15_05_freq} > 1",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Not distressed"
+              },
+              {
+                "value": 2,
+                "text": "A bit distressed"
+              },
+              {
+                "value": 3,
+                "text": "Quite distressed"
+              },
+              {
+                "value": 4,
+                "text": "Very distressed"
+              }
+            ],
+            "indent": 1
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_06_freq",
+            "title": "6. Have you ever felt that people look at you oddly because of your appearance?",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Never"
+              },
+              {
+                "value": 2,
+                "text": "Sometimes"
+              },
+              {
+                "value": 3,
+                "text": "Often"
+              },
+              {
+                "value": 4,
+                "text": "Nearly always"
+              }
+            ]
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_06_distress",
+            "title": "Please indicate how distressed you are by this experience:",
+            "visibleIf": "{cape15_06_freq} > 1",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Not distressed"
+              },
+              {
+                "value": 2,
+                "text": "A bit distressed"
+              },
+              {
+                "value": 3,
+                "text": "Quite distressed"
+              },
+              {
+                "value": 4,
+                "text": "Very distressed"
+              }
+            ],
+            "indent": 1
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_07_freq",
+            "title": "7. Have you ever felt as if the thoughts in your head are being taken away from you?",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Never"
+              },
+              {
+                "value": 2,
+                "text": "Sometimes"
+              },
+              {
+                "value": 3,
+                "text": "Often"
+              },
+              {
+                "value": 4,
+                "text": "Nearly always"
+              }
+            ]
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_07_distress",
+            "title": "Please indicate how distressed you are by this experience:",
+            "visibleIf": "{cape15_07_freq} > 1",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Not distressed"
+              },
+              {
+                "value": 2,
+                "text": "A bit distressed"
+              },
+              {
+                "value": 3,
+                "text": "Quite distressed"
+              },
+              {
+                "value": 4,
+                "text": "Very distressed"
+              }
+            ],
+            "indent": 1
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_08_freq",
+            "title": "8. Have you ever felt as if the thoughts in your head are not your own?",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Never"
+              },
+              {
+                "value": 2,
+                "text": "Sometimes"
+              },
+              {
+                "value": 3,
+                "text": "Often"
+              },
+              {
+                "value": 4,
+                "text": "Nearly always"
+              }
+            ]
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_08_distress",
+            "title": "Please indicate how distressed you are by this experience:",
+            "visibleIf": "{cape15_08_freq} > 1",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Not distressed"
+              },
+              {
+                "value": 2,
+                "text": "A bit distressed"
+              },
+              {
+                "value": 3,
+                "text": "Quite distressed"
+              },
+              {
+                "value": 4,
+                "text": "Very distressed"
+              }
+            ],
+            "indent": 1
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_09_freq",
+            "title": "9. Have your thoughts ever been so vivid that you were worried other people would hear them?",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Never"
+              },
+              {
+                "value": 2,
+                "text": "Sometimes"
+              },
+              {
+                "value": 3,
+                "text": "Often"
+              },
+              {
+                "value": 4,
+                "text": "Nearly always"
+              }
+            ]
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_09_distress",
+            "title": "Please indicate how distressed you are by this experience:",
+            "visibleIf": "{cape15_09_freq} > 1",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Not distressed"
+              },
+              {
+                "value": 2,
+                "text": "A bit distressed"
+              },
+              {
+                "value": 3,
+                "text": "Quite distressed"
+              },
+              {
+                "value": 4,
+                "text": "Very distressed"
+              }
+            ],
+            "indent": 1
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_10_freq",
+            "title": "10. Have you ever heard your thoughts being echoed back at you?",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Never"
+              },
+              {
+                "value": 2,
+                "text": "Sometimes"
+              },
+              {
+                "value": 3,
+                "text": "Often"
+              },
+              {
+                "value": 4,
+                "text": "Nearly always"
+              }
+            ]
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_10_distress",
+            "title": "Please indicate how distressed you are by this experience:",
+            "visibleIf": "{cape15_10_freq} > 1",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Not distressed"
+              },
+              {
+                "value": 2,
+                "text": "A bit distressed"
+              },
+              {
+                "value": 3,
+                "text": "Quite distressed"
+              },
+              {
+                "value": 4,
+                "text": "Very distressed"
+              }
+            ],
+            "indent": 1
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_11_freq",
+            "title": "11. Have you ever felt as if you are under the control of some force or power other than yourself?",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Never"
+              },
+              {
+                "value": 2,
+                "text": "Sometimes"
+              },
+              {
+                "value": 3,
+                "text": "Often"
+              },
+              {
+                "value": 4,
+                "text": "Nearly always"
+              }
+            ]
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_11_distress",
+            "title": "Please indicate how distressed you are by this experience:",
+            "visibleIf": "{cape15_11_freq} > 1",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Not distressed"
+              },
+              {
+                "value": 2,
+                "text": "A bit distressed"
+              },
+              {
+                "value": 3,
+                "text": "Quite distressed"
+              },
+              {
+                "value": 4,
+                "text": "Very distressed"
+              }
+            ],
+            "indent": 1
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_12_freq",
+            "title": "12. Have you ever heard voices when you are alone?",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Never"
+              },
+              {
+                "value": 2,
+                "text": "Sometimes"
+              },
+              {
+                "value": 3,
+                "text": "Often"
+              },
+              {
+                "value": 4,
+                "text": "Nearly always"
+              }
+            ]
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_12_distress",
+            "title": "Please indicate how distressed you are by this experience:",
+            "visibleIf": "{cape15_12_freq} > 1",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Not distressed"
+              },
+              {
+                "value": 2,
+                "text": "A bit distressed"
+              },
+              {
+                "value": 3,
+                "text": "Quite distressed"
+              },
+              {
+                "value": 4,
+                "text": "Very distressed"
+              }
+            ],
+            "indent": 1
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_13_freq",
+            "title": "13. Have you ever heard voices talking to each other when you are alone?",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Never"
+              },
+              {
+                "value": 2,
+                "text": "Sometimes"
+              },
+              {
+                "value": 3,
+                "text": "Often"
+              },
+              {
+                "value": 4,
+                "text": "Nearly always"
+              }
+            ]
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_13_distress",
+            "title": "Please indicate how distressed you are by this experience:",
+            "visibleIf": "{cape15_13_freq} > 1",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Not distressed"
+              },
+              {
+                "value": 2,
+                "text": "A bit distressed"
+              },
+              {
+                "value": 3,
+                "text": "Quite distressed"
+              },
+              {
+                "value": 4,
+                "text": "Very distressed"
+              }
+            ],
+            "indent": 1
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_14_freq",
+            "title": "14. Have you ever felt as if a double has taken the place of a family member, friend or acquaintance?",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Never"
+              },
+              {
+                "value": 2,
+                "text": "Sometimes"
+              },
+              {
+                "value": 3,
+                "text": "Often"
+              },
+              {
+                "value": 4,
+                "text": "Nearly always"
+              }
+            ]
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_14_distress",
+            "title": "Please indicate how distressed you are by this experience:",
+            "visibleIf": "{cape15_14_freq} > 1",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Not distressed"
+              },
+              {
+                "value": 2,
+                "text": "A bit distressed"
+              },
+              {
+                "value": 3,
+                "text": "Quite distressed"
+              },
+              {
+                "value": 4,
+                "text": "Very distressed"
+              }
+            ],
+            "indent": 1
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_15_freq",
+            "title": "15. Have you ever seen objects, people or animals that other people can’t see?",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Never"
+              },
+              {
+                "value": 2,
+                "text": "Sometimes"
+              },
+              {
+                "value": 3,
+                "text": "Often"
+              },
+              {
+                "value": 4,
+                "text": "Nearly always"
+              }
+            ]
+          },
+          {
+            "type": "radiogroup",
+            "name": "cape15_15_distress",
+            "title": "Please indicate how distressed you are by this experience:",
+            "visibleIf": "{cape15_15_freq} > 1",
+            "isRequired": true,
+            "colCount": 4,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Not distressed"
+              },
+              {
+                "value": 2,
+                "text": "A bit distressed"
+              },
+              {
+                "value": 3,
+                "text": "Quite distressed"
+              },
+              {
+                "value": 4,
+                "text": "Very distressed"
+              }
+            ],
+            "indent": 1
+          }
+        ]
+      }
+    ]
+  }
+}

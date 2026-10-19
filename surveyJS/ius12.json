@@ -1,0 +1,103 @@
+{
+  "id": "ius12",
+  "type": "survey",
+  "short": "IUS-12",
+  "name": "Intolerance of Uncertainty Scale – Short Form",
+  "minutes": 2,
+  "citation": "Carleton, R. N., Norton, P. J., & Asmundson, G. J. G. (2007). Fearing the unknown: A short version of the Intolerance of Uncertainty Scale. Journal of Anxiety Disorders, 21(1), 105-117. Item list/numbering verified in Hale, W., et al. (2016). Resolving uncertainty about the Intolerance of Uncertainty Scale-12: Application of modern psychometric strategies. Journal of Personality Assessment, 98(2), 200-208 (PMC4809643).",
+  "notes": "Intolerance of Uncertainty Scale - Short Form (IUS-12).\nItems (IUS-27 items 7, 8, 9, 10, 11, 12, 15, 18, 19, 20, 21, 25) and subscales as in Carleton et al. (2007),\nverified against Hale et al. (2016), PMC4809643; wording as on the IUS-27 form. Total 12–60.\nAdaptation for online use: \"Please circle a number\" → \"Please select a number\".",
+  "survey": {
+    "pages": [
+      {
+        "name": "ius12",
+        "title": "Intolerance of Uncertainty Scale – Short Form (IUS-12)",
+        "elements": [
+          {
+            "type": "html",
+            "name": "ius12_instructions",
+            "html": "<div class=\"q-instructions\"><p>You will find below a series of statements which describe how people may react to the uncertainties of life. Please use the scale below to describe to what extent each item is characteristic of you. Please select a number (1 to 5) that describes you best.</p></div>"
+          },
+          {
+            "type": "matrix",
+            "name": "ius12",
+            "titleLocation": "hidden",
+            "isAllRowRequired": true,
+            "alternateRows": true,
+            "columns": [
+              {
+                "value": 1,
+                "text": "1 – Not at all characteristic of me"
+              },
+              {
+                "value": 2,
+                "text": "2"
+              },
+              {
+                "value": 3,
+                "text": "3 – Somewhat characteristic of me"
+              },
+              {
+                "value": 4,
+                "text": "4"
+              },
+              {
+                "value": 5,
+                "text": "5 – Entirely characteristic of me"
+              }
+            ],
+            "rows": [
+              {
+                "value": "ius12_01",
+                "text": "1. Unforeseen events upset me greatly."
+              },
+              {
+                "value": "ius12_02",
+                "text": "2. It frustrates me not having all the information I need."
+              },
+              {
+                "value": "ius12_03",
+                "text": "3. Uncertainty keeps me from living a full life."
+              },
+              {
+                "value": "ius12_04",
+                "text": "4. One should always look ahead so as to avoid surprises."
+              },
+              {
+                "value": "ius12_05",
+                "text": "5. A small unforeseen event can spoil everything, even with the best of planning."
+              },
+              {
+                "value": "ius12_06",
+                "text": "6. When it's time to act, uncertainty paralyses me."
+              },
+              {
+                "value": "ius12_07",
+                "text": "7. When I am uncertain I can't function very well."
+              },
+              {
+                "value": "ius12_08",
+                "text": "8. I always want to know what the future has in store for me."
+              },
+              {
+                "value": "ius12_09",
+                "text": "9. I can't stand being taken by surprise."
+              },
+              {
+                "value": "ius12_10",
+                "text": "10. The smallest doubt can stop me from acting."
+              },
+              {
+                "value": "ius12_11",
+                "text": "11. I should be able to organize everything in advance."
+              },
+              {
+                "value": "ius12_12",
+                "text": "12. I must get away from all uncertain situations."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

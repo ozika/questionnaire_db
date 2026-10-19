@@ -1,0 +1,163 @@
+{
+  "id": "ius27",
+  "type": "survey",
+  "short": "IUS",
+  "name": "Intolerance of Uncertainty Scale",
+  "minutes": 5,
+  "citation": "Freeston, M. H., Rhéaume, J., Letarte, H., Dugas, M. J., & Ladouceur, R. (1994). Why do people worry? Personality and Individual Differences, 17(6), 791-802. English version: Buhr, K., & Dugas, M. J. (2002). The intolerance of uncertainty scale: psychometric properties of the English version. Behaviour Research and Therapy, 40, 931-945. Two-factor scoring: Sexton, K. A., & Dugas, M. J. (2009). Psychological Assessment, 21, 176-186.",
+  "notes": "Intolerance of Uncertainty Scale (IUS), 27-item English version.\nWording from the official form of the Dugas lab (UQO), https://uqo.ca/sites/default/files/10ba1aec5ab8e530bd0214cef17d912c60bf4ec3ius.pdf\nTotal 27–135; factors after Sexton & Dugas (2009). No reverse-keyed items.\nAdaptation for online use: \"Please circle a number\" → \"Please select a number\".",
+  "survey": {
+    "pages": [
+      {
+        "name": "ius27",
+        "title": "Intolerance of Uncertainty Scale (IUS)",
+        "elements": [
+          {
+            "type": "html",
+            "name": "ius27_instructions",
+            "html": "<div class=\"q-instructions\"><p>You will find below a series of statements which describe how people may react to the uncertainties of life. Please use the scale below to describe to what extent each item is characteristic of you. Please select a number (1 to 5) that describes you best.</p></div>"
+          },
+          {
+            "type": "matrix",
+            "name": "ius27",
+            "titleLocation": "hidden",
+            "isAllRowRequired": true,
+            "alternateRows": true,
+            "columns": [
+              {
+                "value": 1,
+                "text": "1 – Not at all characteristic of me"
+              },
+              {
+                "value": 2,
+                "text": "2"
+              },
+              {
+                "value": 3,
+                "text": "3 – Somewhat characteristic of me"
+              },
+              {
+                "value": 4,
+                "text": "4"
+              },
+              {
+                "value": 5,
+                "text": "5 – Entirely characteristic of me"
+              }
+            ],
+            "rows": [
+              {
+                "value": "ius27_01",
+                "text": "1. Uncertainty stops me from having a firm opinion."
+              },
+              {
+                "value": "ius27_02",
+                "text": "2. Being uncertain means that a person is disorganized."
+              },
+              {
+                "value": "ius27_03",
+                "text": "3. Uncertainty makes life intolerable."
+              },
+              {
+                "value": "ius27_04",
+                "text": "4. It's unfair not having any guarantees in life."
+              },
+              {
+                "value": "ius27_05",
+                "text": "5. My mind can't be relaxed if I don't know what will happen tomorrow."
+              },
+              {
+                "value": "ius27_06",
+                "text": "6. Uncertainty makes me uneasy, anxious, or stressed."
+              },
+              {
+                "value": "ius27_07",
+                "text": "7. Unforeseen events upset me greatly."
+              },
+              {
+                "value": "ius27_08",
+                "text": "8. It frustrates me not having all the information I need."
+              },
+              {
+                "value": "ius27_09",
+                "text": "9. Uncertainty keeps me from living a full life."
+              },
+              {
+                "value": "ius27_10",
+                "text": "10. One should always look ahead so as to avoid surprises."
+              },
+              {
+                "value": "ius27_11",
+                "text": "11. A small unforeseen event can spoil everything, even with the best of planning."
+              },
+              {
+                "value": "ius27_12",
+                "text": "12. When it's time to act, uncertainty paralyses me."
+              },
+              {
+                "value": "ius27_13",
+                "text": "13. Being uncertain means that I am not first rate."
+              },
+              {
+                "value": "ius27_14",
+                "text": "14. When I am uncertain, I can't go forward."
+              },
+              {
+                "value": "ius27_15",
+                "text": "15. When I am uncertain I can't function very well."
+              },
+              {
+                "value": "ius27_16",
+                "text": "16. Unlike me, others always seem to know where they are going with their lives."
+              },
+              {
+                "value": "ius27_17",
+                "text": "17. Uncertainty makes me vulnerable, unhappy, or sad."
+              },
+              {
+                "value": "ius27_18",
+                "text": "18. I always want to know what the future has in store for me."
+              },
+              {
+                "value": "ius27_19",
+                "text": "19. I can't stand being taken by surprise."
+              },
+              {
+                "value": "ius27_20",
+                "text": "20. The smallest doubt can stop me from acting."
+              },
+              {
+                "value": "ius27_21",
+                "text": "21. I should be able to organize everything in advance."
+              },
+              {
+                "value": "ius27_22",
+                "text": "22. Being uncertain means that I lack confidence."
+              },
+              {
+                "value": "ius27_23",
+                "text": "23. I think it's unfair that other people seem sure about their future."
+              },
+              {
+                "value": "ius27_24",
+                "text": "24. Uncertainty keeps me from sleeping soundly."
+              },
+              {
+                "value": "ius27_25",
+                "text": "25. I must get away from all uncertain situations."
+              },
+              {
+                "value": "ius27_26",
+                "text": "26. The ambiguities in life stress me."
+              },
+              {
+                "value": "ius27_27",
+                "text": "27. I can't stand being undecided about my future."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

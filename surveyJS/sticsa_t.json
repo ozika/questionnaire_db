@@ -1,0 +1,135 @@
+{
+  "id": "sticsa_t",
+  "type": "survey",
+  "short": "STICSA-T",
+  "name": "State-Trait Inventory for Cognitive and Somatic Anxiety — trait",
+  "minutes": 3,
+  "citation": "Ree, M. J., French, D., MacLeod, C., & Locke, V. (2008). Distinguishing cognitive and somatic dimensions of state and trait anxiety: Development and validation of the State-Trait Inventory for Cognitive and Somatic Anxiety (STICSA). Behavioural and Cognitive Psychotherapy, 36(3), 313-332. https://doi.org/10.1017/S1352465808004232",
+  "notes": "State-Trait Inventory for Cognitive and Somatic Anxiety (STICSA; Ree et al., 2008).\nSame 21 items in a trait (\"in general\") and a state (\"right now\") version, scored separately.\nWording transcribed from the forms reproduced in Roberts (2013, York University PhD thesis,\nAppendix B); subscales from Tindall et al. (2021, Front. Psychol.). Check against the original\npaper before use: the trait labels \"Occasionally\"/\"Often\" and the end of item 5 (\"soon enough\")\ncould not be verified against it.\nAdaptation for online use: \"four numbers\" → \"four options\", \"circle the number\" → \"select the option\".",
+  "survey": {
+    "pages": [
+      {
+        "name": "sticsa_t",
+        "title": "State-Trait Inventory for Cognitive and Somatic Anxiety — trait (STICSA-T)",
+        "elements": [
+          {
+            "type": "html",
+            "name": "sticsa_t_instructions",
+            "html": "<div class=\"q-instructions\"><p>Below is a list of statements which can be used to describe how people feel. Beside each statement are four options which indicate how often each statement is true of you. Please read each statement carefully and select the option which best indicates how often, in general, the statement is true of you.</p></div>"
+          },
+          {
+            "type": "matrix",
+            "name": "sticsa_t",
+            "titleLocation": "hidden",
+            "isAllRowRequired": true,
+            "alternateRows": true,
+            "columns": [
+              {
+                "value": 1,
+                "text": "Almost never"
+              },
+              {
+                "value": 2,
+                "text": "Occasionally"
+              },
+              {
+                "value": 3,
+                "text": "Often"
+              },
+              {
+                "value": 4,
+                "text": "Almost always"
+              }
+            ],
+            "rows": [
+              {
+                "value": "sticsa_t_01",
+                "text": "1. My heart beats fast."
+              },
+              {
+                "value": "sticsa_t_02",
+                "text": "2. My muscles are tense."
+              },
+              {
+                "value": "sticsa_t_03",
+                "text": "3. I feel agonized over my problems."
+              },
+              {
+                "value": "sticsa_t_04",
+                "text": "4. I think that others won't approve of me."
+              },
+              {
+                "value": "sticsa_t_05",
+                "text": "5. I feel like I'm missing out on things because I can't make up my mind soon enough."
+              },
+              {
+                "value": "sticsa_t_06",
+                "text": "6. I feel dizzy."
+              },
+              {
+                "value": "sticsa_t_07",
+                "text": "7. My muscles feel weak."
+              },
+              {
+                "value": "sticsa_t_08",
+                "text": "8. I feel trembly and shaky."
+              },
+              {
+                "value": "sticsa_t_09",
+                "text": "9. I picture some future misfortune."
+              },
+              {
+                "value": "sticsa_t_10",
+                "text": "10. I can't get some thoughts out of my mind."
+              },
+              {
+                "value": "sticsa_t_11",
+                "text": "11. I have trouble remembering things."
+              },
+              {
+                "value": "sticsa_t_12",
+                "text": "12. My face feels hot."
+              },
+              {
+                "value": "sticsa_t_13",
+                "text": "13. I think that the worst will happen."
+              },
+              {
+                "value": "sticsa_t_14",
+                "text": "14. My arms and legs feel stiff."
+              },
+              {
+                "value": "sticsa_t_15",
+                "text": "15. My throat feels dry."
+              },
+              {
+                "value": "sticsa_t_16",
+                "text": "16. I keep busy to avoid uncomfortable thoughts."
+              },
+              {
+                "value": "sticsa_t_17",
+                "text": "17. I cannot concentrate without irrelevant thoughts intruding."
+              },
+              {
+                "value": "sticsa_t_18",
+                "text": "18. My breathing is fast and shallow."
+              },
+              {
+                "value": "sticsa_t_19",
+                "text": "19. I worry that I cannot control my thoughts as well as I would like to."
+              },
+              {
+                "value": "sticsa_t_20",
+                "text": "20. I have butterflies in the stomach."
+              },
+              {
+                "value": "sticsa_t_21",
+                "text": "21. My palms feel clammy."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

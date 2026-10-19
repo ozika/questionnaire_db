@@ -1,0 +1,168 @@
+{
+  "id": "ctq",
+  "type": "survey",
+  "short": "CTQ-SF",
+  "name": "Childhood Trauma Questionnaire – Short Form",
+  "minutes": 5,
+  "citation": "Bernstein, D. P., Stein, J. A., Newcomb, M. D., et al. (2003). Development and validation of a brief screening version of the Childhood Trauma Questionnaire. Child Abuse & Neglect, 27(2), 169–190.",
+  "notes": "Childhood Trauma Questionnaire – Short Form (CTQ-SF; Bernstein et al., 2003), 28 items.\n\nLICENSED INSTRUMENT: the CTQ is copyrighted (Bernstein & Fink, 1998; Pearson); the item wording may only be reproduced/administered with a licence and is therefore NOT included (placeholder text). Item structure follows Melander Hagborg, Kalin & Gerdner (2022), https://pmc.ncbi.nlm.nih.gov/articles/PMC9684390/. To use it, upload a SurveyJS JSON with the licensed wording in the Library tab with id 'ctq' (replace), keeping the item names ctq_01 … ctq_28.",
+  "placeholder": true,
+  "survey": {
+    "pages": [
+      {
+        "name": "ctq",
+        "title": "Childhood Trauma Questionnaire – Short Form (CTQ-SF)",
+        "elements": [
+          {
+            "type": "html",
+            "name": "ctq_instructions",
+            "html": "<div class=\"q-instructions\"><p>[CTQ-SF instructions — insert licensed wording.]</p></div>"
+          },
+          {
+            "type": "matrix",
+            "name": "ctq",
+            "titleLocation": "hidden",
+            "isAllRowRequired": true,
+            "alternateRows": true,
+            "columns": [
+              {
+                "value": 1,
+                "text": "Never true"
+              },
+              {
+                "value": 2,
+                "text": "Rarely true"
+              },
+              {
+                "value": 3,
+                "text": "Sometimes true"
+              },
+              {
+                "value": 4,
+                "text": "Often true"
+              },
+              {
+                "value": 5,
+                "text": "Very often true"
+              }
+            ],
+            "rows": [
+              {
+                "value": "ctq_01",
+                "text": "1. [insert licensed item 1 wording]"
+              },
+              {
+                "value": "ctq_02",
+                "text": "2. [insert licensed item 2 wording]"
+              },
+              {
+                "value": "ctq_03",
+                "text": "3. [insert licensed item 3 wording]"
+              },
+              {
+                "value": "ctq_04",
+                "text": "4. [insert licensed item 4 wording]"
+              },
+              {
+                "value": "ctq_05",
+                "text": "5. [insert licensed item 5 wording]"
+              },
+              {
+                "value": "ctq_06",
+                "text": "6. [insert licensed item 6 wording]"
+              },
+              {
+                "value": "ctq_07",
+                "text": "7. [insert licensed item 7 wording]"
+              },
+              {
+                "value": "ctq_08",
+                "text": "8. [insert licensed item 8 wording]"
+              },
+              {
+                "value": "ctq_09",
+                "text": "9. [insert licensed item 9 wording]"
+              },
+              {
+                "value": "ctq_10",
+                "text": "10. [insert licensed item 10 wording]"
+              },
+              {
+                "value": "ctq_11",
+                "text": "11. [insert licensed item 11 wording]"
+              },
+              {
+                "value": "ctq_12",
+                "text": "12. [insert licensed item 12 wording]"
+              },
+              {
+                "value": "ctq_13",
+                "text": "13. [insert licensed item 13 wording]"
+              },
+              {
+                "value": "ctq_14",
+                "text": "14. [insert licensed item 14 wording]"
+              },
+              {
+                "value": "ctq_15",
+                "text": "15. [insert licensed item 15 wording]"
+              },
+              {
+                "value": "ctq_16",
+                "text": "16. [insert licensed item 16 wording]"
+              },
+              {
+                "value": "ctq_17",
+                "text": "17. [insert licensed item 17 wording]"
+              },
+              {
+                "value": "ctq_18",
+                "text": "18. [insert licensed item 18 wording]"
+              },
+              {
+                "value": "ctq_19",
+                "text": "19. [insert licensed item 19 wording]"
+              },
+              {
+                "value": "ctq_20",
+                "text": "20. [insert licensed item 20 wording]"
+              },
+              {
+                "value": "ctq_21",
+                "text": "21. [insert licensed item 21 wording]"
+              },
+              {
+                "value": "ctq_22",
+                "text": "22. [insert licensed item 22 wording]"
+              },
+              {
+                "value": "ctq_23",
+                "text": "23. [insert licensed item 23 wording]"
+              },
+              {
+                "value": "ctq_24",
+                "text": "24. [insert licensed item 24 wording]"
+              },
+              {
+                "value": "ctq_25",
+                "text": "25. [insert licensed item 25 wording]"
+              },
+              {
+                "value": "ctq_26",
+                "text": "26. [insert licensed item 26 wording]"
+              },
+              {
+                "value": "ctq_27",
+                "text": "27. [insert licensed item 27 wording]"
+              },
+              {
+                "value": "ctq_28",
+                "text": "28. [insert licensed item 28 wording]"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

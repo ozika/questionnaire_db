@@ -1,0 +1,9 @@
+{
+  "id": "speech",
+  "type": "speech",
+  "short": "Spoken responses",
+  "name": "Spoken responses to short scenarios",
+  "minutes": 6,
+  "module": "speech/index.js",
+  "notes": "Standardized UMI speech instrument, developed in umi-lab/speech-instrument and included as a git submodule in speech/. Scenarios, limits and version are in speech/instrument.json. Currently a PLACEHOLDER."
+}

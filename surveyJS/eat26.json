@@ -1,0 +1,163 @@
+{
+  "id": "eat26",
+  "type": "survey",
+  "short": "EAT-26",
+  "name": "Eating Attitudes Test",
+  "minutes": 4,
+  "citation": "Garner, D. M., Olmsted, M. P., Bohr, Y., & Garfinkel, P. E. (1982). The Eating Attitudes Test: psychometric features and clinical correlates. Psychological Medicine, 12(4), 871-878.",
+  "notes": "Eating Attitudes Test (EAT-26; Garner et al., 1982).\nWording from the official form at https://www.eat-26.com (© D. M. Garner). Free of charge, but\nreproducing it online requires a permission letter requested via https://www.eat-26.com/permission.\nOnly Part B (the 26 items) is included; the form's Part A (demographics/weight) and Part C\n(behavioural questions) are not.\nAdaptation for online use: \"Part B: Check a response\" → \"Please select a response\".\n\nResponses are stored as the option position (1 = Always … 6 = Never), because several options\nshare a score; the scoring key is applied in score().",
+  "survey": {
+    "pages": [
+      {
+        "name": "eat26",
+        "title": "Eating Attitudes Test (EAT-26)",
+        "elements": [
+          {
+            "type": "html",
+            "name": "eat26_instructions",
+            "html": "<div class=\"q-instructions\"><p>This is a screening measure to help you determine whether you might have an eating disorder that needs professional attention. This screening measure is not designed to make a diagnosis of an eating disorder or take the place of a professional consultation. Please fill out the below form as accurately, honestly and completely as possible. There are no right or wrong answers. All of your responses are confidential.</p><p>Please select a response for each of the following statements:</p></div>"
+          },
+          {
+            "type": "matrix",
+            "name": "eat26",
+            "titleLocation": "hidden",
+            "isAllRowRequired": true,
+            "alternateRows": true,
+            "columns": [
+              {
+                "value": 1,
+                "text": "Always"
+              },
+              {
+                "value": 2,
+                "text": "Usually"
+              },
+              {
+                "value": 3,
+                "text": "Often"
+              },
+              {
+                "value": 4,
+                "text": "Sometimes"
+              },
+              {
+                "value": 5,
+                "text": "Rarely"
+              },
+              {
+                "value": 6,
+                "text": "Never"
+              }
+            ],
+            "rows": [
+              {
+                "value": "eat26_01",
+                "text": "1. Am terrified about being overweight."
+              },
+              {
+                "value": "eat26_02",
+                "text": "2. Avoid eating when I am hungry."
+              },
+              {
+                "value": "eat26_03",
+                "text": "3. Find myself preoccupied with food."
+              },
+              {
+                "value": "eat26_04",
+                "text": "4. Have gone on eating binges where I feel that I may not be able to stop."
+              },
+              {
+                "value": "eat26_05",
+                "text": "5. Cut my food into small pieces."
+              },
+              {
+                "value": "eat26_06",
+                "text": "6. Aware of the calorie content of foods that I eat."
+              },
+              {
+                "value": "eat26_07",
+                "text": "7. Particularly avoid food with a high carbohydrate content (i.e. bread, rice, potatoes, etc.)"
+              },
+              {
+                "value": "eat26_08",
+                "text": "8. Feel that others would prefer if I ate more."
+              },
+              {
+                "value": "eat26_09",
+                "text": "9. Vomit after I have eaten."
+              },
+              {
+                "value": "eat26_10",
+                "text": "10. Feel extremely guilty after eating."
+              },
+              {
+                "value": "eat26_11",
+                "text": "11. Am preoccupied with a desire to be thinner."
+              },
+              {
+                "value": "eat26_12",
+                "text": "12. Think about burning up calories when I exercise."
+              },
+              {
+                "value": "eat26_13",
+                "text": "13. Other people think that I am too thin."
+              },
+              {
+                "value": "eat26_14",
+                "text": "14. Am preoccupied with the thought of having fat on my body."
+              },
+              {
+                "value": "eat26_15",
+                "text": "15. Take longer than others to eat my meals."
+              },
+              {
+                "value": "eat26_16",
+                "text": "16. Avoid foods with sugar in them."
+              },
+              {
+                "value": "eat26_17",
+                "text": "17. Eat diet foods."
+              },
+              {
+                "value": "eat26_18",
+                "text": "18. Feel that food controls my life."
+              },
+              {
+                "value": "eat26_19",
+                "text": "19. Display self-control around food."
+              },
+              {
+                "value": "eat26_20",
+                "text": "20. Feel that others pressure me to eat."
+              },
+              {
+                "value": "eat26_21",
+                "text": "21. Give too much time and thought to food."
+              },
+              {
+                "value": "eat26_22",
+                "text": "22. Feel uncomfortable after eating sweets."
+              },
+              {
+                "value": "eat26_23",
+                "text": "23. Engage in dieting behavior."
+              },
+              {
+                "value": "eat26_24",
+                "text": "24. Like my stomach to be empty."
+              },
+              {
+                "value": "eat26_25",
+                "text": "25. Have the impulse to vomit after meals."
+              },
+              {
+                "value": "eat26_26",
+                "text": "26. Enjoy trying new rich foods."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

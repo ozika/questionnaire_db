@@ -1,0 +1,127 @@
+{
+  "id": "ocir",
+  "type": "survey",
+  "short": "OCI-R",
+  "name": "Obsessive-Compulsive Inventory – Revised",
+  "minutes": 3,
+  "citation": "Foa, E. B., Huppert, J. D., Leiberg, S., Langner, R., Kichic, R., Hajcak, G., & Salkovskis, P. M. (2002). The Obsessive-Compulsive Inventory: Development and validation of a short version. Psychological Assessment, 14(4), 485-496. https://doi.org/10.1037/1040-3590.14.4.485",
+  "notes": "Obsessive-Compulsive Inventory–Revised (OCI-R; Foa et al., 2002).\nWording as on the standard form (identical in several independently hosted copies).\nFree for research and clinical use with acknowledgement of Foa et al. (2002).\nAdaptation for online use: \"Circle the number\" → \"Select the option\"; the sentence introducing\nthe verbal labels is dropped because the labels are shown as column headings.",
+  "survey": {
+    "pages": [
+      {
+        "name": "ocir",
+        "title": "Obsessive-Compulsive Inventory – Revised (OCI-R)",
+        "elements": [
+          {
+            "type": "html",
+            "name": "ocir_instructions",
+            "html": "<div class=\"q-instructions\"><p>The following statements refer to experiences that many people have in their everyday lives. Select the option that best describes HOW MUCH that experience has DISTRESSED or BOTHERED you during the PAST MONTH.</p></div>"
+          },
+          {
+            "type": "matrix",
+            "name": "ocir",
+            "titleLocation": "hidden",
+            "isAllRowRequired": true,
+            "alternateRows": true,
+            "columns": [
+              {
+                "value": 0,
+                "text": "Not at all"
+              },
+              {
+                "value": 1,
+                "text": "A little"
+              },
+              {
+                "value": 2,
+                "text": "Moderately"
+              },
+              {
+                "value": 3,
+                "text": "A lot"
+              },
+              {
+                "value": 4,
+                "text": "Extremely"
+              }
+            ],
+            "rows": [
+              {
+                "value": "ocir_01",
+                "text": "1. I have saved up so many things that they get in the way."
+              },
+              {
+                "value": "ocir_02",
+                "text": "2. I check things more often than necessary."
+              },
+              {
+                "value": "ocir_03",
+                "text": "3. I get upset if objects are not arranged properly."
+              },
+              {
+                "value": "ocir_04",
+                "text": "4. I feel compelled to count while I am doing things."
+              },
+              {
+                "value": "ocir_05",
+                "text": "5. I find it difficult to touch an object when I know it has been touched by strangers or certain people."
+              },
+              {
+                "value": "ocir_06",
+                "text": "6. I find it difficult to control my own thoughts."
+              },
+              {
+                "value": "ocir_07",
+                "text": "7. I collect things I don't need."
+              },
+              {
+                "value": "ocir_08",
+                "text": "8. I repeatedly check doors, windows, drawers, etc."
+              },
+              {
+                "value": "ocir_09",
+                "text": "9. I get upset if others change the way I have arranged things."
+              },
+              {
+                "value": "ocir_10",
+                "text": "10. I feel I have to repeat certain numbers."
+              },
+              {
+                "value": "ocir_11",
+                "text": "11. I sometimes have to wash or clean myself simply because I feel contaminated."
+              },
+              {
+                "value": "ocir_12",
+                "text": "12. I am upset by unpleasant thoughts that come into my mind against my will."
+              },
+              {
+                "value": "ocir_13",
+                "text": "13. I avoid throwing things away because I am afraid I might need them later."
+              },
+              {
+                "value": "ocir_14",
+                "text": "14. I repeatedly check gas and water taps and light switches after turning them off."
+              },
+              {
+                "value": "ocir_15",
+                "text": "15. I need things to be arranged in a particular way."
+              },
+              {
+                "value": "ocir_16",
+                "text": "16. I feel that there are good and bad numbers."
+              },
+              {
+                "value": "ocir_17",
+                "text": "17. I wash my hands more often and longer than necessary."
+              },
+              {
+                "value": "ocir_18",
+                "text": "18. I frequently get nasty thoughts and have difficulty in getting rid of them."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

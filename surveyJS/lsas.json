@@ -1,0 +1,180 @@
+{
+  "id": "lsas",
+  "type": "survey",
+  "short": "LSAS-SR",
+  "name": "Liebowitz Social Anxiety Scale",
+  "minutes": 6,
+  "citation": "Liebowitz, M. R. (1987). Social phobia. Modern Problems of Pharmacopsychiatry, 22, 141-173. Self-report validation: Fresco, D. M., Coles, M. E., Heimberg, R. G., Liebowitz, M. R., Hami, S., Stein, M. B., & Goetz, D. (2001). Psychological Medicine, 31, 1025-1035; Baker, S. L., Heinrichs, N., Kim, H.-J., & Hofmann, S. G. (2002). Behaviour Research and Therapy, 40, 701-715. Cutoffs: Rytwinski, N. K., Fresco, D. M., Heimberg, R. G., et al. (2009). Depression and Anxiety, 26, 34-38.",
+  "notes": "Liebowitz Social Anxiety Scale – self-report version (LSAS-SR; Liebowitz, 1987; Fresco et al., 2001).\nClassic 24-item wording, as in the widely circulated self-report form. Copyright M. R. Liebowitz,\ndistributed by Mapi Research Trust (ePROVIDE) — check the terms for your use.\nEach situation is rated for fear/anxiety and for avoidance, side by side as on the paper form.",
+  "survey": {
+    "pages": [
+      {
+        "name": "lsas",
+        "title": "Liebowitz Social Anxiety Scale (LSAS-SR)",
+        "elements": [
+          {
+            "type": "html",
+            "name": "lsas_instructions",
+            "html": "<div class=\"q-instructions\"><p>This measure assesses the way that social phobia plays a role in your life across a variety of situations. Read each situation carefully and answer two questions about it; the first question asks how anxious or fearful you feel in the situation; the second question asks how often you avoid it. If you come across a situation that you ordinarily do not experience, we ask that you imagine “what if you were faced with that situation”, and then rate the degree to which you would fear this hypothetical situation and how often you would tend to avoid it (using the 0 to 3 scales below). Please base your ratings on the way that the situations have affected you in the last week.</p></div>"
+          },
+          {
+            "type": "matrixdropdown",
+            "name": "lsas",
+            "titleLocation": "hidden",
+            "alternateRows": true,
+            "columns": [
+              {
+                "name": "fear",
+                "title": "Fear or anxiety",
+                "cellType": "radiogroup",
+                "colCount": 1,
+                "isRequired": true,
+                "choices": [
+                  {
+                    "value": 0,
+                    "text": "None"
+                  },
+                  {
+                    "value": 1,
+                    "text": "Mild"
+                  },
+                  {
+                    "value": 2,
+                    "text": "Moderate"
+                  },
+                  {
+                    "value": 3,
+                    "text": "Severe"
+                  }
+                ]
+              },
+              {
+                "name": "avoid",
+                "title": "Avoidance",
+                "cellType": "radiogroup",
+                "colCount": 1,
+                "isRequired": true,
+                "choices": [
+                  {
+                    "value": 0,
+                    "text": "Never (0%)"
+                  },
+                  {
+                    "value": 1,
+                    "text": "Occasionally (1-33%)"
+                  },
+                  {
+                    "value": 2,
+                    "text": "Often (33-67%)"
+                  },
+                  {
+                    "value": 3,
+                    "text": "Usually (67-100%)"
+                  }
+                ]
+              }
+            ],
+            "rows": [
+              {
+                "value": "lsas_01",
+                "text": "1. Telephoning in public"
+              },
+              {
+                "value": "lsas_02",
+                "text": "2. Participating in small groups"
+              },
+              {
+                "value": "lsas_03",
+                "text": "3. Eating in public places"
+              },
+              {
+                "value": "lsas_04",
+                "text": "4. Drinking with others in public places"
+              },
+              {
+                "value": "lsas_05",
+                "text": "5. Talking to people in authority"
+              },
+              {
+                "value": "lsas_06",
+                "text": "6. Acting, performing or giving a talk in front of an audience"
+              },
+              {
+                "value": "lsas_07",
+                "text": "7. Going to a party"
+              },
+              {
+                "value": "lsas_08",
+                "text": "8. Working while being observed"
+              },
+              {
+                "value": "lsas_09",
+                "text": "9. Writing while being observed"
+              },
+              {
+                "value": "lsas_10",
+                "text": "10. Calling someone you don't know very well"
+              },
+              {
+                "value": "lsas_11",
+                "text": "11. Talking with people you don't know very well"
+              },
+              {
+                "value": "lsas_12",
+                "text": "12. Meeting strangers"
+              },
+              {
+                "value": "lsas_13",
+                "text": "13. Urinating in a public bathroom"
+              },
+              {
+                "value": "lsas_14",
+                "text": "14. Entering a room when others are already seated"
+              },
+              {
+                "value": "lsas_15",
+                "text": "15. Being the center of attention"
+              },
+              {
+                "value": "lsas_16",
+                "text": "16. Speaking up at a meeting"
+              },
+              {
+                "value": "lsas_17",
+                "text": "17. Taking a test"
+              },
+              {
+                "value": "lsas_18",
+                "text": "18. Expressing a disagreement or disapproval to people you don't know very well"
+              },
+              {
+                "value": "lsas_19",
+                "text": "19. Looking at people you don't know very well in the eyes"
+              },
+              {
+                "value": "lsas_20",
+                "text": "20. Giving a report to a group"
+              },
+              {
+                "value": "lsas_21",
+                "text": "21. Trying to pick up someone"
+              },
+              {
+                "value": "lsas_22",
+                "text": "22. Returning goods to a store"
+              },
+              {
+                "value": "lsas_23",
+                "text": "23. Giving a party"
+              },
+              {
+                "value": "lsas_24",
+                "text": "24. Resisting a high pressure salesperson"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

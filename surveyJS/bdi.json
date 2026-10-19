@@ -1,0 +1,546 @@
+{
+  "id": "bdi",
+  "type": "survey",
+  "short": "BDI",
+  "name": "Beck Depression Inventory",
+  "minutes": 5,
+  "citation": "Beck, A. T., Ward, C. H., Mendelson, M., Mock, J., & Erbaugh, J. (1961). An inventory for measuring depression. Archives of General Psychiatry, 4, 561–571. Beck, A. T., Rush, A. J., Shaw, B. F., & Emery, G. (1979). Cognitive therapy of depression. New York: Guilford Press.",
+  "notes": "Beck Depression Inventory (BDI; Beck et al., 1961; BDI-IA, Beck et al., 1979). NOT the BDI-II.\nWording transcribed from the research group's paper form (\"BECK INVENTORY\", 3 pages).\n© Aaron T. Beck; distributed by Pearson. Make sure your use is covered by a licence/permission.\n\nAdaptations for online use:\n - \"Circle the number beside the statement\" → \"Select the statement\"; \"circle each one\" → \"select each one\"\n   (several statements can therefore be selected, as on paper; the item scores the highest one).\n - Item 19's \"I am purposely trying to lose weight by eating less. Yes / No\" is a separate question.\nKept as printed: item 17, statement 3 \"I am tired too tired to do anything\".",
+  "survey": {
+    "pages": [
+      {
+        "name": "bdi",
+        "title": "Beck Depression Inventory (BDI)",
+        "elements": [
+          {
+            "type": "html",
+            "name": "bdi_instructions",
+            "html": "<div class=\"q-instructions\"><p>On this questionnaire are groups of statements. Please read each group of statements carefully, then pick out the one statement in each group which best describes the way you have been feeling in the past week including today.<br>Select the statement you have picked. If several statements apply equally well, select each one. Be sure to read all the statements in each group before making your choice.</p></div>"
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_01",
+            "title": "1.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I do not feel sad"
+              },
+              {
+                "value": 1,
+                "text": "1  I feel sad"
+              },
+              {
+                "value": 2,
+                "text": "2  I am sad all the time and can’t snap out of it"
+              },
+              {
+                "value": 3,
+                "text": "3  I am so sad or unhappy that I can’t stand it"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_02",
+            "title": "2.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I am not particularly discouraged about the future"
+              },
+              {
+                "value": 1,
+                "text": "1  I feel discouraged about the future"
+              },
+              {
+                "value": 2,
+                "text": "2  I feel I have nothing to look forward to"
+              },
+              {
+                "value": 3,
+                "text": "3  I feel that the future is hopeless and that things cannot improve"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_03",
+            "title": "3.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I do not feel like a failure"
+              },
+              {
+                "value": 1,
+                "text": "1  I feel I have failed more than the average person"
+              },
+              {
+                "value": 2,
+                "text": "2  As I look back on my life, all I can see is a lot of failures"
+              },
+              {
+                "value": 3,
+                "text": "3  I feel I am a complete failure as a person"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_04",
+            "title": "4.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I get as much satisfaction out of things as I used to"
+              },
+              {
+                "value": 1,
+                "text": "1  I don’t enjoy things the way I used to"
+              },
+              {
+                "value": 2,
+                "text": "2  I don’t get real satisfaction out of anything anymore"
+              },
+              {
+                "value": 3,
+                "text": "3  I am dissatisfied or bored with everything"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_05",
+            "title": "5.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I don’t feel particularly guilty"
+              },
+              {
+                "value": 1,
+                "text": "1  I feel guilty a good part of the time"
+              },
+              {
+                "value": 2,
+                "text": "2  I feel quite guilty most of the time"
+              },
+              {
+                "value": 3,
+                "text": "3  I feel guilty all of the time"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_06",
+            "title": "6.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I don’t feel I am being punished"
+              },
+              {
+                "value": 1,
+                "text": "1  I feel I may be punished"
+              },
+              {
+                "value": 2,
+                "text": "2  I expect to be punished"
+              },
+              {
+                "value": 3,
+                "text": "3  I feel I am being punished"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_07",
+            "title": "7.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I don’t feel disappointed in myself"
+              },
+              {
+                "value": 1,
+                "text": "1  I am disappointed in myself"
+              },
+              {
+                "value": 2,
+                "text": "2  I am disgusted with myself"
+              },
+              {
+                "value": 3,
+                "text": "3  I hate myself"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_08",
+            "title": "8.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I don’t feel I am any worse than anybody else"
+              },
+              {
+                "value": 1,
+                "text": "1  I am critical of myself for my weaknesses or mistakes"
+              },
+              {
+                "value": 2,
+                "text": "2  I blame myself all the time for my faults"
+              },
+              {
+                "value": 3,
+                "text": "3  I blame myself for everything bad that happens"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_09",
+            "title": "9.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I don’t have any thoughts of killing myself"
+              },
+              {
+                "value": 1,
+                "text": "1  I have thoughts of killing myself, but I would not carry them out"
+              },
+              {
+                "value": 2,
+                "text": "2  I would like to kill myself"
+              },
+              {
+                "value": 3,
+                "text": "3  I would kill myself if I had the chance"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_10",
+            "title": "10.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I don’t cry any more than usual"
+              },
+              {
+                "value": 1,
+                "text": "1  I cry more now than I used to"
+              },
+              {
+                "value": 2,
+                "text": "2  I cry all the time now"
+              },
+              {
+                "value": 3,
+                "text": "3  I used to be able to cry, but now I can’t cry even though I want to"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_11",
+            "title": "11.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I am no more irritated now than I ever am"
+              },
+              {
+                "value": 1,
+                "text": "1  I get annoyed or irritated more easily than I used to"
+              },
+              {
+                "value": 2,
+                "text": "2  I feel irritated all the time now"
+              },
+              {
+                "value": 3,
+                "text": "3  I don’t get irritated at all by the things that used to irritate me"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_12",
+            "title": "12.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I have not lost interest in other people"
+              },
+              {
+                "value": 1,
+                "text": "1  I am less interested in other people than I used to be"
+              },
+              {
+                "value": 2,
+                "text": "2  I have lost most of my interest in other people"
+              },
+              {
+                "value": 3,
+                "text": "3  I have lost all of my interest in other people"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_13",
+            "title": "13.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I make decisions about as well as I ever could"
+              },
+              {
+                "value": 1,
+                "text": "1  I put off making decisions more than I used to"
+              },
+              {
+                "value": 2,
+                "text": "2  I have greater difficulty in making decisions than before"
+              },
+              {
+                "value": 3,
+                "text": "3  I can’t make decisions at all anymore"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_14",
+            "title": "14.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I don’t feel I look any worse than I used to"
+              },
+              {
+                "value": 1,
+                "text": "1  I am worried that I am looking old and unattractive"
+              },
+              {
+                "value": 2,
+                "text": "2  I feel that there are permanent changes in my appearance that make me look unattractive"
+              },
+              {
+                "value": 3,
+                "text": "3  I believe that I look ugly"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_15",
+            "title": "15.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I can work about as well as before"
+              },
+              {
+                "value": 1,
+                "text": "1  It takes an extra effort to get started at doing something"
+              },
+              {
+                "value": 2,
+                "text": "2  I have to push myself very hard to do anything"
+              },
+              {
+                "value": 3,
+                "text": "3  I can’t do any work at all"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_16",
+            "title": "16.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I can sleep as well as usual"
+              },
+              {
+                "value": 1,
+                "text": "1  I don’t sleep as well as I used to"
+              },
+              {
+                "value": 2,
+                "text": "2  I wake up 1-2 hours earlier than usual and find it hard to get back to sleep"
+              },
+              {
+                "value": 3,
+                "text": "3  I wake up several hours earlier than I used to and cannot get back to sleep"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_17",
+            "title": "17.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I don’t get more tired than usual"
+              },
+              {
+                "value": 1,
+                "text": "1  I get tired more easily than I used to"
+              },
+              {
+                "value": 2,
+                "text": "2  I get tired from doing almost anything"
+              },
+              {
+                "value": 3,
+                "text": "3  I am tired too tired to do anything"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_18",
+            "title": "18.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  My appetite is no worse than usual"
+              },
+              {
+                "value": 1,
+                "text": "1  My appetite is not as good as it used to be"
+              },
+              {
+                "value": 2,
+                "text": "2  My appetite is much worse now"
+              },
+              {
+                "value": 3,
+                "text": "3  I have no appetite at all anymore"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_19",
+            "title": "19.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I haven’t lost much weight, if any, lately"
+              },
+              {
+                "value": 1,
+                "text": "1  I have lost more than 5 pounds"
+              },
+              {
+                "value": 2,
+                "text": "2  I have lost more than 10 pounds"
+              },
+              {
+                "value": 3,
+                "text": "3  I have lost more than 15 pounds"
+              }
+            ]
+          },
+          {
+            "type": "radiogroup",
+            "name": "bdi_19_diet",
+            "title": "I am purposely trying to lose weight by eating less.",
+            "isRequired": true,
+            "colCount": 2,
+            "indent": 1,
+            "choices": [
+              {
+                "value": 1,
+                "text": "Yes"
+              },
+              {
+                "value": 0,
+                "text": "No"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_20",
+            "title": "20.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I am no more worried about my health than usual"
+              },
+              {
+                "value": 1,
+                "text": "1  I am worried about physical problems such as aches and pains; or upset stomach; or constipation"
+              },
+              {
+                "value": 2,
+                "text": "2  I am very worried about physical problems and it is hard to think about much else"
+              },
+              {
+                "value": 3,
+                "text": "3  I am so worried about my physical problems that I cannot think about anything else"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "name": "bdi_21",
+            "title": "21.",
+            "isRequired": true,
+            "choices": [
+              {
+                "value": 0,
+                "text": "0  I have not noticed any recent changes in my interest in sex"
+              },
+              {
+                "value": 1,
+                "text": "1  I am less interested in sex than I used to be"
+              },
+              {
+                "value": 2,
+                "text": "2  I am much less interested in sex now"
+              },
+              {
+                "value": 3,
+                "text": "3  I have lost interest in sex completely"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "sticsa_t",
+    "type": "survey",
+    "short": "STICSA-T",
+    "name": "State-Trait Inventory for Cognitive and Somatic Anxiety — trait",
+    "minutes": 3
+  },
+  {
+    "id": "sticsa_s",
+    "type": "survey",
+    "short": "STICSA-S",
+    "name": "State-Trait Inventory for Cognitive and Somatic Anxiety — state",
+    "minutes": 3
+  },
+  {
+    "id": "bdi",
+    "type": "survey",
+    "short": "BDI",
+    "name": "Beck Depression Inventory",
+    "minutes": 5
+  },
+  {
+    "id": "ocir",
+    "type": "survey",
+    "short": "OCI-R",
+    "name": "Obsessive-Compulsive Inventory – Revised",
+    "minutes": 3
+  },
+  {
+    "id": "lsas",
+    "type": "survey",
+    "short": "LSAS-SR",
+    "name": "Liebowitz Social Anxiety Scale",
+    "minutes": 6
+  },
+  {
+    "id": "eat26",
+    "type": "survey",
+    "short": "EAT-26",
+    "name": "Eating Attitudes Test",
+    "minutes": 4
+  },
+  {
+    "id": "ius27",
+    "type": "survey",
+    "short": "IUS",
+    "name": "Intolerance of Uncertainty Scale",
+    "minutes": 5
+  },
+  {
+    "id": "ius12",
+    "type": "survey",
+    "short": "IUS-12",
+    "name": "Intolerance of Uncertainty Scale – Short Form",
+    "minutes": 2
+  },
+  {
+    "id": "cape15",
+    "type": "survey",
+    "short": "CAPE-P15",
+    "name": "Community Assessment of Psychic Experiences – positive scale",
+    "minutes": 4
+  },
+  {
+    "id": "ctq",
+    "type": "survey",
+    "short": "CTQ-SF",
+    "name": "Childhood Trauma Questionnaire – Short Form",
+    "minutes": 5,
+    "placeholder": true
+  },
+  {
+    "id": "quic",
+    "type": "survey",
+    "short": "QUIC",
+    "name": "Questionnaire of Unpredictability in Childhood",
+    "minutes": 6
+  },
+  {
+    "id": "speech",
+    "type": "speech",
+    "short": "Spoken responses",
+    "name": "Spoken responses to short scenarios",
+    "minutes": 6
+  }
+]
